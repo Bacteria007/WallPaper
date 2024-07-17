@@ -21,15 +21,6 @@ import ImageDetail from "./src/screens/ImageDetail";
 const Tab = createMaterialTopTabNavigator();
 const Stack = createNativeStackNavigator();
 
-const Practice = () => {
-  return (
-      <Tab.Navigator initialRouteName='Accel'>
-        <Tab.Screen name='Proxi' component={ProxyScreen} />
-        <Tab.Screen name='Accel' component={Accelero} />
-        <Tab.Screen name='Parallax' component={Rotationscreen} />
-      </Tab.Navigator>
-  )
-}
 
 const App = () => {
   return (

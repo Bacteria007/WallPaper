@@ -45,8 +45,8 @@ const FiltersModal = ({
     onApply,
     onReset,
 }) => {
-    const snapPoints = useMemo(() => ['75%'], ['95%']);
-    return (
+    const snapPoints = useMemo(() => ['75%', '95%'], []);
+ return (
         <View>
             <BottomSheetModal
                 ref={modalRef}
