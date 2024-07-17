@@ -35,7 +35,6 @@ const Home = () => {
   const [filters, setFilters] = useState(null);
   const [images, setImages] = useState([]);
   const [isEndReached, setIsEndReached] = useState(false)
- 
   const openFiltersModal = () => {
     modalRef?.current?.present();
   };

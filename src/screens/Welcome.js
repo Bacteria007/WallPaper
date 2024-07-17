@@ -21,15 +21,15 @@ const Welcome = () => {
                 />
                 <View style={styles.contentContainer}>
                     <Animated.Text 
-                    // entering={FadeInDown.delay(400).springify()} 
-                    style={styles.title}>Pixels</Animated.Text>
+                    // entering={FadeInDown.delay(400).springify()}
+                     style={styles.title}>Pixels</Animated.Text>
                     <Animated.Text 
-                    // entering={FadeInDown.delay(500).springify()} 
-                    style={styles.punchLine}>Every pixels tells a story</Animated.Text>
+                    // entering={FadeInDown.delay(500).springify()}
+                     style={styles.punchLine}>Every pixels tells a story</Animated.Text>
                 </View>
-                <Animated.View 
-                // entering={FadeInDown.delay(600).springify()} 
-                style={styles.btnConatiner}>
+                <Animated.View
+                //  entering={FadeInDown.delay(600).springify()}
+                  style={styles.btnConatiner}>
                     <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.startBtn}>
                         <Text style={styles.startText}>Start Explore</Text>
                     </TouchableOpacity>
